@@ -1,0 +1,150 @@
+/* Application styles could go here */
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: "Courier New", Courier, monospace;
+    color: #063828;
+}
+
+a.link {
+    color: #063828;
+    font-weight: bold;
+}
+
+a.link:hover {
+    color: #063828;
+    font-weight: bold;
+}
+
+a.footerlink {
+    color: white;
+}
+
+a.footerlink:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.stats {
+    font-size: 60%;
+    padding: 5px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+    background-color: #347E70;
+    color: white;
+}
+.button1:hover {
+  background-color: #347E70;
+  color: white;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #063828;
+}
+.full-height {
+  height: 100%;
+  background: yellow;
+}
+
+
+/* File uploader: */
+.hiddenUploadButton {
+    display: block;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.upload-drop-zone {
+    border-width: 2px;
+    margin-bottom: 5px;
+    padding: 10px;
+    color: #ccc;
+    border-style: dashed;
+    border-color: #ccc;
+    text-align: center
+}
+.upload-drop-zone:hover {
+    color: var(--color-contrast-bright);
+    border-color: var(--color-contrast-bright);
+}
+/* Styles for table in Uploaded files */
+
+th, td  {
+    padding: 10px;
+}
+.emphasis {
+    background-color: #EDFDF8;
+}
+
+td:hover {background-color: #EDFDF8;}
+
+/* voor macro tabel */
+.zui-table {
+    background-color: white;
+    border: none;
+    border-collapse: separate;
+    border-spacing: 0;
+ 
+}
+
+.zui-table th {
+    background-color: white;
+
+    color: #063828;
+    width: 100%;
+    min-width: 32px;
+    white-space: nowrap;
+    text-align: center;
+}
+.zui-table tbody td.zui-sticky-col {
+    color: black;
+    padding: 10px;
+    white-space: nowrap;
+    
+}
+
+.zui-table tbody td {
+    border-bottom: solid 1px #E8EEEA;
+    color:#063828;
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+
+.zui-wrapper {
+    position: relative;
+    top: 5px;
+    margin-bottom: 40px;
+}
+.zui-scroller {
+    margin-left: 250px;
+    overflow-x: scroll;
+    overflow-y: visible;
+    padding-bottom: 5px;
+    width: auto;
+}
+.zui-table .zui-sticky-col {
+    left: 0;
+    position: absolute;
+    top: auto;
+    width: 100px;
+
+}
+

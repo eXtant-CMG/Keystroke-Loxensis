@@ -1,0 +1,253 @@
+
+body {
+  font-family: verdana, sans-serif;
+}
+
+h4 {
+  font-family: verdana, sans-serif;
+}
+
+
+.sides {
+    background-color: white;
+}
+
+
+.description {
+    padding: 10px;
+    margin-left: 20px;
+    height: 1500px;
+}
+
+.word {
+    font-family: "times new roman";
+    padding-bottom: 50px;
+    font-size: 120%;
+    padding-top: 10px;
+}
+
+.navbar {
+    background-color:white;
+}
+.navbar-light .navbar-brand {
+
+}
+.navbar-light .navbar-nav .nav-link {
+
+}
+
+.options {
+
+  background-color: #302B27;
+  color: white;
+  text-align: center;
+  
+}
+
+
+.button {
+  background-color: #F3F6F4;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  padding-left:15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #F3F6F4;
+}
+
+
+
+/*style for text */
+
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+
+}
+.indent {
+    margin-left: 5%;
+}
+
+.temporaryhide {
+    display:none;
+}
+
+.whiteline {
+ display:inline-block;
+ margin-top:15px;
+ margin-bottom:15px;
+ margin-left: -4px;
+}
+
+span.sup {
+ vertical-align: super;
+ font-size: 60%;
+ }
+ 
+span.sub {
+ vertical-align: sub;
+  font-size: 60%;
+ }
+ 
+a.sentence {
+    font-size: 70%;
+    color: #000000;
+}
+
+.n {
+    display: none;
+}
+
+
+.nt {
+    color: #843371;
+    display: none;
+    quotes: none;
+}
+
+.rt {
+    color: #8B95C9;
+    display: none;
+    
+}
+
+.layout {
+    display: none;
+    
+}
+
+
+a.mod {
+
+}
+
+
+.cont {
+    color: #ff9900;
+    display: none;
+    quotes: none;
+}
+
+
+.del.pre-context {
+    text-decoration: none;
+}
+
+.add.context {
+    color: #04724D;
+    display: none;
+}
+
+.add.pre-context {
+    color: #7FB069;
+    display: none;
+}
+
+.del.typo {
+    text-decoration: none;
+
+}
+.del.context {
+    text-decoration: none;
+
+}
+
+.add.typo {
+    color: #BE7C4D;
+    display: none;
+}
+
+
+.del.trans {
+
+    text-decoration: none;
+}
+.add.trans {
+    color: #377495;
+    display: none;
+}
+.add.focus {
+    color: #453539;
+    display: none;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 80%;
+}
+.add.paste {
+    color: red;
+    display: none;
+}
+.del.cut {
+
+    color: blue;
+}
+.interdoc {
+    color: #9E2B25;
+}
+.interdoc {
+    color: #317B22;
+}
+
+.symbol {
+  display: none;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.thick {
+  font-weight: bold;
+}
+
+
+.thick-del {
+  font-weight: bold;
+  color: black;
+}
+
+
+.src {
+    color: pink;
+    display: none;
+    quotes: none;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+
+.line {
+	background-color: #D36135;
+	position: absolute;
+	height: 2px;
+	opacity: 1;
+
+}
+
+.notes {
+    font-family: verdana, sans-serif;
+    color: black;
+    display: none;
+}
+
+div.sticky {
+  bottom: 30px;
+  margin-top: 60px;
+
+  right: 10px;
+  position: fixed;
+
+  top: 0;
+  overflow-x: scroll;
+  padding-top: 0px;
+}
